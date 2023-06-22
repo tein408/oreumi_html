@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body, ul, li {
+      padding: 0;
+    }
+
+    .nav>ul ul {
+      display: none;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .nav {
+      text-align: center;
+      width: 200px;
+    }
+
+    .nav ul {
+      background-color: aliceblue;
+      line-height: 30px;
+    }
+
+    .nav ul>li:hover {
+      background-color: lightgray;
+    }
+
+    .nav>ul>li {
+      position: relative;
+    }
+
+    .nav>ul>li:hover>ul {
+      display: block;
+      background-color: lightgray;
+    }
+
+    a {
+      text-decoration: none;
+      color: palevioletred;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <ul>
+      <li>
+        <a href="#">menu1</a>
+        <ul>
+          <li><a href="#">text1</a></li>
+          <li><a href="#">text2</a></li>
+          <li><a href="#">text3</a></li>
+          <li><a href="#">text4</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu2</a>
+        <ul>
+          <li><a href="#">text1</a></li>
+          <li><a href="#">text2</a></li>
+          <li><a href="#">text3</a></li>
+          <li><a href="#">text4</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu3</a>
+        <ul>
+          <li><a href="#">text1</a></li>
+          <li><a href="#">text2</a></li>
+          <li><a href="#">text3</a></li>
+          <li><a href="#">text4</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">menu4</a>
+        <ul>
+          <li><a href="#">text1</a></li>
+          <li><a href="#">text2</a></li>
+          <li><a href="#">text3</a></li>
+          <li><a href="#">text4</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
